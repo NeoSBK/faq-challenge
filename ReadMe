@@ -1,24 +1,22 @@
-# Simple FAQ Challenge
+Simple FAQ Challenge
 
 This is a beginner-level project from https://www.devchallenges.io/, focused on learning HTML and CSS. I’m using this challenge to refresh and improve my skills in web development.
 
-## Challenge Overview
+Challenge Overview
 
 The goal of this challenge is to build a simple FAQ page with sections displaying frequently asked questions, styled with CSS. The page is responsive and adapts to various screen sizes, ensuring a good user experience across devices.
 
-## Technologies Used
+Technologies Used
 
-- **HTML**: Used for creating the structure of the FAQ page.
-- **CSS**: Used for styling the page and making it responsive.
+- HTML: Used for creating the structure of the FAQ page.
+- CSS: Used for styling the page and making it responsive.
 
-## Features
+Features
 
 - A section for the FAQ title.
 - Multiple FAQ sections with questions and answers.
-- Clean, responsive design that adjusts to different screen sizes.
-- Flexbox layout for centering and aligning the content.
 - Use of modern CSS techniques such as box-shadow and border-radius for styling.
 
-## Purpose
+Purpose
 
 This project is part of my journey to refresh and strengthen my HTML and CSS skills. It provides hands-on experience with building a simple web page from scratch, applying best practices for styling, and ensuring responsiveness.
