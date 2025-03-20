@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple FAQ | devChallenges.io</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Inter", sans-serif;
+      background-color: #D2D5DA;
+      color: #333;
+      text-align: center;
+    }
+
+    /* FAQ Title Section */
+    .section1 {
+      max-width: 100%;
+      margin: 40px auto 0;
+      padding: 20px;
+      background: #FFFFFF;
+      border-radius: 8px 8px 0 0;
+      box-sizing: border-box;
+    }
+
+    /* FAQ Content Container */
+    .section2and3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 100%;
+      margin: 0 auto;
+      padding-top: 0;
+    }
+
+    /* FAQ Sections */
+    .section2, .section3 {
+      width: 100%;
+      padding: 20px;
+      background-color: #F8FAFC;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      text-align: left;
+      margin: 0;
+      box-sizing: border-box; /* Include padding in width calculation */
+    }
+
+    .section3 {
+      border-radius: 0 0 8px 8px;
+    }
+
+    @media (min-width: 1024px) {
+      .section1, .section2and3 {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .section1 {
+        border-bottom: 3px solid #F8FAFC;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .section1 {
+        padding: 15px;
+      }
+
+      .section2, .section3 {
+        padding: 15px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .section1 {
+        padding: 18px;
+      }
+
+      .section2, .section3 {
+        padding: 18px;
+      }
+    }
+
+    /* Headings */
+    h1, h2 {
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    /* Paragraphs and Lists */
+    p, ol, ul {
+      font-weight: 400;
+      line-height: 1.6;
+    }
+
+    ol, ul {
+      padding-left: 20px;
+    }
+
+    /* Links */
+    a {
+      color: #4E80EE;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    .author-info {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 20px;
+      color: rgb(55, 65, 81);
+    }
+
+  </style>
+</head>
+
+<body>
+<div class="section1">
+  <h1>Frequently Asked Questions</h1>
+  <p>Browse through the most frequently asked questions.</p>
+</div>
+
+<div class="section2and3">
+  <div class="section2">
+    <h2>How can I track my order?</h2>
+    <p>You can track your order in the following steps:</p>
+    <ol>
+      <li>Go to the <a href="#">Order Tracking Page</a></li>
+      <li>Enter your order number and email address</li>
+      <li>Click on the "Track Order" button to view the current status of your shipment</li>
+    </ol>
+    <p>If you encounter any issues, please visit our <a href="#">Help Center</a>.</p>
+  </div>
+
+  <div class="section3">
+    <h2>What is your return policy?</h2>
+    <p>We offer a 30-day return policy on most items. Here are some key points:</p>
+    <ul>
+      <li><b>Items must be in original condition:</b> Unworn, unused, and unwashed.</li>
+      <li><b>Include original packaging and tags:</b> All items should be returned with their original packaging and tags.</li>
+      <li><b>Proof of purchase:</b> A receipt or proof of purchase is required.</li>
+    </ul>
+    <p>For more detailed information, read our full <a href="#">Return Policy</a>.</p>
+  </div>
+</div>
+
+<div class="author-info">
+  Coded by <a href="#">NeoSBK</a> | Challenge by
+  <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>.
+</div>
+</body>
+</html>
